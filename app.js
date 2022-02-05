@@ -29,7 +29,7 @@ const oneSecond = 1000;
 const deadline = document.querySelector(".deadline");
 const items = document.querySelectorAll(".deadline-format h4");
 
-let futureDate = new Date(2021, 12, 1, 0, 00, 0);
+let futureDate = new Date(2022, 12, 1, 0, 00, 0);
 const futureTime = futureDate.getTime();
 
 function getRemainingTime() {
